@@ -11,7 +11,7 @@ document.getElementById("HME").addEventListener("click", function () {
     document.getElementById("ABT").classList.remove("active-link");
     document.getElementById("SCH").classList.remove("active-link");
     document.getElementById("SPK").classList.remove("active-link");
-    // document.getElementById("PRC").classList.remove("active-link");
+    document.getElementById("PRC").classList.remove("active-link");
     document.getElementById("SPN").classList.remove("active-link");
     document.getElementById("CNT").classList.remove("active-link");
 });
@@ -20,7 +20,7 @@ document.getElementById("ABT").addEventListener("click", function () {
     document.getElementById("HME").classList.remove("active-link");
     document.getElementById("SCH").classList.remove("active-link");
     document.getElementById("SPK").classList.remove("active-link");
-    // document.getElementById("PRC").classList.remove("active-link");
+    document.getElementById("PRC").classList.remove("active-link");
     document.getElementById("SPN").classList.remove("active-link");
     document.getElementById("CNT").classList.remove("active-link");
 });
@@ -29,7 +29,7 @@ document.getElementById("SCH").addEventListener("click", function () {
     document.getElementById("ABT").classList.remove("active-link");
     document.getElementById("HME").classList.remove("active-link");
     document.getElementById("SPK").classList.remove("active-link");
-    // document.getElementById("PRC").classList.remove("active-link");
+    document.getElementById("PRC").classList.remove("active-link");
     document.getElementById("SPN").classList.remove("active-link");
     document.getElementById("CNT").classList.remove("active-link");
 });
@@ -38,19 +38,19 @@ document.getElementById("SPK").addEventListener("click", function () {
     document.getElementById("ABT").classList.remove("active-link");
     document.getElementById("SCH").classList.remove("active-link");
     document.getElementById("HME").classList.remove("active-link");
-    // document.getElementById("PRC").classList.remove("active-link");
+    document.getElementById("PRC").classList.remove("active-link");
     document.getElementById("SPN").classList.remove("active-link");
     document.getElementById("CNT").classList.remove("active-link");
 });
-// document.getElementById("PRC").addEventListener("click", function () {
-//     document.getElementById("PRC").classList.add("active-link");
-//     document.getElementById("ABT").classList.remove("active-link");
-//     document.getElementById("SCH").classList.remove("active-link");
-//     document.getElementById("SPK").classList.remove("active-link");
-//     document.getElementById("HME").classList.remove("active-link");
-//     document.getElementById("SPN").classList.remove("active-link");
-//     document.getElementById("CNT").classList.remove("active-link");
-// });
+document.getElementById("PRC").addEventListener("click", function () {
+    document.getElementById("PRC").classList.add("active-link");
+    document.getElementById("ABT").classList.remove("active-link");
+    document.getElementById("SCH").classList.remove("active-link");
+    document.getElementById("SPK").classList.remove("active-link");
+    document.getElementById("HME").classList.remove("active-link");
+    document.getElementById("SPN").classList.remove("active-link");
+    document.getElementById("CNT").classList.remove("active-link");
+});
 document.getElementById("SPN").addEventListener("click", function () {
     document.getElementById("SPN").classList.add("active-link");
     document.getElementById("ABT").classList.remove("active-link");
