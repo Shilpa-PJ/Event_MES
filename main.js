@@ -11,7 +11,7 @@ document.getElementById("HME").addEventListener("click", function () {
     document.getElementById("ABT").classList.remove("active-link");
     document.getElementById("SCH").classList.remove("active-link");
     document.getElementById("SPK").classList.remove("active-link");
-    document.getElementById("PRC").classList.remove("active-link");
+    // document.getElementById("PRC").classList.remove("active-link");
     document.getElementById("SPN").classList.remove("active-link");
     document.getElementById("CNT").classList.remove("active-link");
 });
@@ -20,7 +20,7 @@ document.getElementById("ABT").addEventListener("click", function () {
     document.getElementById("HME").classList.remove("active-link");
     document.getElementById("SCH").classList.remove("active-link");
     document.getElementById("SPK").classList.remove("active-link");
-    document.getElementById("PRC").classList.remove("active-link");
+    // document.getElementById("PRC").classList.remove("active-link");
     document.getElementById("SPN").classList.remove("active-link");
     document.getElementById("CNT").classList.remove("active-link");
 });
@@ -29,7 +29,7 @@ document.getElementById("SCH").addEventListener("click", function () {
     document.getElementById("ABT").classList.remove("active-link");
     document.getElementById("HME").classList.remove("active-link");
     document.getElementById("SPK").classList.remove("active-link");
-    document.getElementById("PRC").classList.remove("active-link");
+    // document.getElementById("PRC").classList.remove("active-link");
     document.getElementById("SPN").classList.remove("active-link");
     document.getElementById("CNT").classList.remove("active-link");
 });
@@ -38,19 +38,19 @@ document.getElementById("SPK").addEventListener("click", function () {
     document.getElementById("ABT").classList.remove("active-link");
     document.getElementById("SCH").classList.remove("active-link");
     document.getElementById("HME").classList.remove("active-link");
-    document.getElementById("PRC").classList.remove("active-link");
+    // document.getElementById("PRC").classList.remove("active-link");
     document.getElementById("SPN").classList.remove("active-link");
     document.getElementById("CNT").classList.remove("active-link");
 });
-document.getElementById("PRC").addEventListener("click", function () {
-    document.getElementById("PRC").classList.add("active-link");
-    document.getElementById("ABT").classList.remove("active-link");
-    document.getElementById("SCH").classList.remove("active-link");
-    document.getElementById("SPK").classList.remove("active-link");
-    document.getElementById("HME").classList.remove("active-link");
-    document.getElementById("SPN").classList.remove("active-link");
-    document.getElementById("CNT").classList.remove("active-link");
-});
+// document.getElementById("PRC").addEventListener("click", function () {
+//     document.getElementById("PRC").classList.add("active-link");
+//     document.getElementById("ABT").classList.remove("active-link");
+//     document.getElementById("SCH").classList.remove("active-link");
+//     document.getElementById("SPK").classList.remove("active-link");
+//     document.getElementById("HME").classList.remove("active-link");
+//     document.getElementById("SPN").classList.remove("active-link");
+//     document.getElementById("CNT").classList.remove("active-link");
+// });
 document.getElementById("SPN").addEventListener("click", function () {
     document.getElementById("SPN").classList.add("active-link");
     document.getElementById("ABT").classList.remove("active-link");
@@ -120,7 +120,7 @@ document.getElementById("btn-1").addEventListener("click", function () {
     document.getElementById("btn-1").classList.add("active_schedule_btn");
     document.getElementById("btn-2").classList.remove("active_schedule_btn");
     document.getElementById("btn-3").classList.remove("active_schedule_btn");
-    document.getElementById("btn-4").classList.remove("active_schedule_btn");
+    // document.getElementById("btn-4").classList.remove("active_schedule_btn");
     document.getElementById("acc-title-1").innerHTML = "WELCOME SPEECH AND OVERVIEW";
     document.getElementById("acc-title-2").innerHTML = "<strong>Andrew Yang</strong> - CEO, Microsoft";
     document.getElementById("acc-title-3").innerHTML = "THE IMPACT OF AI ON WORLD";
@@ -135,7 +135,7 @@ document.getElementById("btn-2").addEventListener("click", function () {
     document.getElementById("btn-2").classList.add("active_schedule_btn");
     document.getElementById("btn-1").classList.remove("active_schedule_btn");
     document.getElementById("btn-3").classList.remove("active_schedule_btn");
-    document.getElementById("btn-4").classList.remove("active_schedule_btn");
+    // document.getElementById("btn-4").classList.remove("active_schedule_btn");
     document.getElementById("acc-title-1").innerHTML = "SEMINAR ON DEEPLEARNING & TENSORFLOW";
     document.getElementById("acc-title-2").innerHTML = "<strong>Gennady Korotkevich</strong> - #1 IN GOOGLE CODE JAM";
     document.getElementById("acc-title-3").innerHTML = "DATA MINING & DRILLING NUMPY";
@@ -150,7 +150,7 @@ document.getElementById("btn-3").addEventListener("click", function () {
     document.getElementById("btn-3").classList.add("active_schedule_btn");
     document.getElementById("btn-1").classList.remove("active_schedule_btn");
     document.getElementById("btn-2").classList.remove("active_schedule_btn");
-    document.getElementById("btn-4").classList.remove("active_schedule_btn");
+    // document.getElementById("btn-4").classList.remove("active_schedule_btn");
     document.getElementById("acc-title-1").innerHTML = "JOURNEY INTO THE AI REALM";
     document.getElementById("acc-title-2").innerHTML = "<strong>Andrew Ng.</strong> - FOUNDER & CEO OF Landing AI";
     document.getElementById("acc-title-3").innerHTML = "ERA OF MACHINE LEARNING";
@@ -160,21 +160,21 @@ document.getElementById("btn-3").addEventListener("click", function () {
     document.getElementById("acc-title-7").innerHTML = "BRIEF WALKTHROUGH ON ADOBE ILLUSTRATOR";
     document.getElementById("acc-title-8").innerHTML = "<strong>Mary Doe</strong> - Lead Designer, Google";
 });
-document.getElementById("btn-4").addEventListener("click", function () {
-    document.getElementById("sch_date").innerHTML = "SEPTEMBER 18, 2021";
-    document.getElementById("btn-4").classList.add("active_schedule_btn");
-    document.getElementById("btn-1").classList.remove("active_schedule_btn");
-    document.getElementById("btn-2").classList.remove("active_schedule_btn");
-    document.getElementById("btn-3").classList.remove("active_schedule_btn");
-    document.getElementById("acc-title-1").innerHTML = "INTRODUCTION TO WEB-PROGRAMMING";
-    document.getElementById("acc-title-2").innerHTML = "<strong>Henry Rich</strong> - Lead Programmer, SpaceX";
-    document.getElementById("acc-title-3").innerHTML = "PLAYING WITH FUNDAMENTALS OF JAVA";
-    document.getElementById("acc-title-4").innerHTML = "<strong>Errichto</strong> - International Grandmaster, Codeforce";
-    document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
-    document.getElementById("acc-title-6").innerHTML = "<strong>Sponsored</strong> - AirTM, PayPal, TechGeek";
-    document.getElementById("acc-title-7").innerHTML = "ENCODING DESIGN";
-    document.getElementById("acc-title-8").innerHTML = "<strong>John Doe</strong> - Co-Lead, AirTM";
-});
+// document.getElementById("btn-4").addEventListener("click", function () {
+//     document.getElementById("sch_date").innerHTML = "SEPTEMBER 18, 2021";
+//     document.getElementById("btn-4").classList.add("active_schedule_btn");
+//     document.getElementById("btn-1").classList.remove("active_schedule_btn");
+//     document.getElementById("btn-2").classList.remove("active_schedule_btn");
+//     document.getElementById("btn-3").classList.remove("active_schedule_btn");
+//     document.getElementById("acc-title-1").innerHTML = "INTRODUCTION TO WEB-PROGRAMMING";
+//     document.getElementById("acc-title-2").innerHTML = "<strong>Henry Rich</strong> - Lead Programmer, SpaceX";
+//     document.getElementById("acc-title-3").innerHTML = "PLAYING WITH FUNDAMENTALS OF JAVA";
+//     document.getElementById("acc-title-4").innerHTML = "<strong>Errichto</strong> - International Grandmaster, Codeforce";
+//     document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
+//     document.getElementById("acc-title-6").innerHTML = "<strong>Sponsored</strong> - AirTM, PayPal, TechGeek";
+//     document.getElementById("acc-title-7").innerHTML = "ENCODING DESIGN";
+//     document.getElementById("acc-title-8").innerHTML = "<strong>John Doe</strong> - Co-Lead, AirTM";
+// });
 // fakeloader initialization
 $(document).ready(function () {
     $.fakeLoader({
