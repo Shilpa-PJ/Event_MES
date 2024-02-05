@@ -405,8 +405,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- MODAL SLIDER END   -->
             </div>
+                <!-- MODAL SLIDER END   -->
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6">
                 <div class="row gx-0 align-items-center justify-content-center">
                     <div class="row mt-4">
@@ -452,12 +452,12 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3">
-                <div class="about_us_image video-img position-relative d-flex align-items-center justify-content-center"
+                <!-- <div class="about_us_image video-img position-relative d-flex align-items-center justify-content-center"
                     data-bs-toggle="modal" data-bs-target="#video_modal">
                     <span class="video-title position-absolute">Video</span>
                     <img class="img-fluid video_icon" src="./Images/Icons/vdo-icn.png" alt="video_icon">
                 </div>
-                <!-- MODAL VIDEO START -->
+                MODAL VIDEO START
                 <div class="modal fade" id="video_modal" tabindex="-1" aria-labelledby="VideoModalLabel"
                     aria-hidden="true" style="z-index: 99999999;">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -477,6 +477,100 @@
                                         style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
                                         allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
                                 <script src="https://player.vimeo.com/api/player.js"></script>
+                            </div>
+                            <div class="modal-footer">
+                                <button data-mdb-ripple-color="success" type="button" class="btn btn-secondary"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="about_us_image gallery-img position-relative" data-bs-toggle="modal"
+                    data-bs-target="#galleryModal">
+                    <span class="position-absolute">Gallery</span>
+                    <img class="img-fluid gallery-icon" src="./Images/Icons/gal-icn.png" alt="gallery-icon">
+                </div>
+                <!-- MODAL SLIDER START -->
+                <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModal"
+                    aria-hidden="true" style="z-index: 99999999;">
+                    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="galleryModal">Gallery</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="custom-carousel owl-theme">
+                                    <img src="./Images/Background/1.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="1">
+                                    <img src="./Images/Background/2.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="2">
+                                    <img src="./Images/Background/3.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="3">
+                                    <img src="./Images/Background/4.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="4">
+                                    <!-- <img src="./Images/Background/5.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="5">
+                                    <img src="./Images/Background/6.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="6">
+                                    <img src="./Images/Background/pexels-祝-鹤槐-716276.jpg"
+                                        class="img-fluid rounded d-block w-100" alt="7">
+                                    <img src="./Images/Background/8.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="8">
+                                    <img src="./Images/Background/9.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="9">-->
+                                </div>
+                                <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./Images/Background/1.jpg" class="img-fluid rounded d-block w-100"
+                                                alt="1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./Images/Background/2.jpg" class="img-fluid rounded d-block w-100"
+                                                alt="2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./Images/Background/3.jpg" class="img-fluid rounded d-block w-100"
+                                                alt="3">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./Images/Background/4.jpg" class="img-fluid rounded d-block w-100"
+                                                alt="4">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./Images/Background/5.jpg" class="img-fluid rounded d-block w-100"
+                                                alt="5">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./Images/Background/6.jpg" class="img-fluid rounded d-block w-100"
+                                                alt="6">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./Images/Background/7.jpg" class="img-fluid rounded d-block w-100"
+                                                alt="7">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./Images/Background/8.jpg" class="img-fluid rounded d-block w-100"
+                                                alt="8">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./Images/Background/9.jpg" class="img-fluid rounded d-block w-100"
+                                                alt="9">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div> -->
                             </div>
                             <div class="modal-footer">
                                 <button data-mdb-ripple-color="success" type="button" class="btn btn-secondary"
@@ -1485,7 +1579,7 @@
     </section>
     <!-- SECTION - 4 END   -->
 
-    <!-- SECTION - 5 START-->
+    <!--  SECTION - 5 START -->
     <section class="pricing container-fluid position-relative d-flex align-items-center justify-content-center"
         id="pricing">
         <div class="container">
@@ -2759,8 +2853,8 @@
                     </div>
                 </div>
                 <div class="md-overlay bg-white"></div>
-                 <!-- MODAL POPUP - 3 END   --> 
-                <!--  MODAL POPUP - 4 START  -->
+                 <!-- MODAL POPUP - 3 END    -->
+                 <!-- MODAL POPUP - 4 START  -->
                 <div class="md-modal md-effect-11" id="pricing-modal-4">
                     <div class="md-content bg-dark custom-md-content"
                         style="overflow-y: scroll;height:80vh;box-shadow:0 2px 5px 0 rgb(27 208 126), 0 2px 7px 0 rgb(27 208 126 / 50%);">
@@ -3178,7 +3272,7 @@
                     </div>
                 </div>
                 <div class="md-overlay bg-white"></div>
-                <!-- MODAL POPUP - 4 END    -->
+             <!-- MODAL POPUP - 4 END    --> 
 
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 wow animated fadeInRight"
                     data-wow-duration="1s" data-wow-delay="0.3s">
@@ -3348,7 +3442,7 @@
     </section>
          <!-- SECTION - 5 END     --> 
 
-    <!-- SECTION - 6 START  -->
+    <!-- SECTION - 6 START  
     <section class="container-fluid sign-up position-relative d-flex align-items-center justify-content-center"
         id="sign-up">
         <div class="container">
@@ -3364,7 +3458,7 @@
                             class="btn btn-lg px-5 btn-reg"
                             style="padding-top: 15px; padding-bottom: 15px;">Register</button>
                     </div>
-                    <!-- MODAL FOR FORM START  -->
+                    MODAL FOR FORM START 
                     <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="FormModalLabel"
                         aria-hidden="true" style="z-index: 99999999;">
                         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -3415,13 +3509,13 @@
                             </div>
                         </div>
                     </div>
-                     <!-- MODAL FOR FORM END  -->
+                    MODAL FOR FORM END  
                     <br>
                     <p class="wow animated bounceInLeft text-center text-white" data-wow-duration="2s"
                         data-wow-delay="0.5s">Please read
                         the <a class="terms-link" data-bs-toggle="modal" data-bs-target="#termsModal">Terms &
                             Conditions</a> carefully.</p>
-                    <!-- MODAL START  -->
+                    MODAL START  
                     <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termModalLabel"
                         aria-hidden="true" style="z-index: 99999999;">
                         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -3451,12 +3545,12 @@
                             </div>
                         </div>
                     </div>
-                    <!-- MODAL END   -->
+                     MODAL END  
                 </div>
             </div>
         </div>
     </section>
-     <!-- SECTION - 6 END     --> 
+     SECTION - 6 END     --> 
 
     <!-- SECTION - 7 START   -->
     <section class="sponsors container-fluid mb-5 position-relative d-flex align-items-center justify-content-center"
