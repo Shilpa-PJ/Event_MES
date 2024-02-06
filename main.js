@@ -139,7 +139,7 @@ document.getElementById("btn-2").addEventListener("click", function () {
     //document.getElementById("btn-4").classList.remove("active_schedule_btn");
     document.getElementById("acc-title-1").innerHTML = "COMFIESTA 24";
     document.getElementById("acc-title-2").innerHTML = "<strong>DEPARTMENT OF COMMERCE</strong>";
-    document.getElementById("vn-title-1").innerHTML = "<p>1.GROUP DANCE INTTERCOLLEGIATE<br> 2.E SPORTS INTTERCOLLEGIATE<br>3.TREASURE HUNT INTTERCOLLEGIATE<br>4.JEWELLERY EXPO<br> 5.MEENA BAZAR<br>6.HANDICRAFT EXPO<br><strong>CONTACT:<br>HOD-9048982977,<br>COORDINATOR-9947518100</p> ";
+    // document.getElementById("vn-title-1").innerHTML = "<p>1.GROUP DANCE INTTERCOLLEGIATE<br> 2.E SPORTS INTTERCOLLEGIATE<br>3.TREASURE HUNT INTTERCOLLEGIATE<br>4.JEWELLERY EXPO<br> 5.MEENA BAZAR<br>6.HANDICRAFT EXPO<br><strong>CONTACT:<br>HOD-9048982977,<br>COORDINATOR-9947518100</p> ";
     document.getElementById("acc-title-3").innerHTML = "HARMONIA 24";
     document.getElementById("acc-title-4").innerHTML = "<strong>DEPARTMENT OF HRM</strong>";
     document.getElementById("acc-title-5").innerHTML = "RESONANCE 24";
