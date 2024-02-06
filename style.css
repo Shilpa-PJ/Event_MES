@@ -231,7 +231,7 @@ header {
     text-align: center;
 }
 
-.landing-page-heading::after {
+/* .landing-page-heading::after {
     content: '';
     position: absolute;
     background: var(--primaryHoverColor);
@@ -240,7 +240,7 @@ header {
     display: block;
     left: 47.3%;
     top: 46.7%;
-}
+} */
 
 .landing-page-heading h4 {
     text-align: center;
