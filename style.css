@@ -7,13 +7,13 @@
     --primaryColor: #fff;
     --primaryFont: 'Raleway', sans-serif;
     --primaryFontWeight: 500;
-    --primaryTransition: all 0.3s linear;
+    --primaryTransition: all 0.1s linear;
     --primaryHoverColor: rgb(27, 208, 126);
     --primaryBackground: #191919;
     --primaryOpacity: 1;
     --secondaryColor: #777;
     --secondaryFont: 'Poppins', sans-serif;
-    --secondaryTransition: all 0.5s linear;
+    --secondaryTransition: all 0.2s linear;
 }
 html{
     overflow: scroll;
