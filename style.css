@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Raleway:ital,wght@0,400;1,100&display=swap');
+
 
 :root {
     --primaryColor: #fff;
     --primaryFont: 'Raleway', sans-serif;
     --primaryFontWeight: 500;
-    --primaryTransition: all 0.3s linear;
+    --primaryTransition: all 0.1s linear;
     --primaryHoverColor: rgb(27, 208, 126);
     --primaryBackground: #191919;
     --primaryOpacity: 1;
     --secondaryColor: #777;
     --secondaryFont: 'Poppins', sans-serif;
-    --secondaryTransition: all 0.5s linear;
+    --secondaryTransition: all 0.2s linear;
 }
 html{
     overflow: scroll;
